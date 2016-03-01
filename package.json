@@ -1,0 +1,25 @@
+{
+  "name": "SampleText",
+  "version": "0.0.3",
+  "description": "SampleText Plugin",
+  "cordova": {
+    "id": "com.example.sampletext",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ua45tj/sample-text.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ua45tj/sample-text/issues"
+  },
+  "homepage": "https://github.com/ua45tj/sample-text#readme"
+}
