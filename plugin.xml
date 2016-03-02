@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="com.example.sampletext"
-    version="0.0.3">
+    version="0.0.4">
     <name>Sample Text</name>
     <description>SampleText Plugin</description>
 
@@ -16,8 +16,10 @@
                 <param name="android-package" value="com.example.sampletext.SampleText" />
             </feature>
         </config-file>
-        <config-file parent="/*" target="AndroidManifest.xml">
+        <config-file target="AndroidManifest.xml" parent="/manifest/application">
+            <activity android:name="com.example.sampletext.NextActivity" />
         </config-file>
         <source-file src="src/android/SampleText.java" target-dir="src/com/example/sampletext" />
+        <source-file src="src/android/NextActivity.java" target-dir="src/com/example/sampletext" />
     </platform>
 </plugin>
