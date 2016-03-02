@@ -1,6 +1,6 @@
 {
   "name": "SampleText",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "SampleText Plugin",
   "cordova": {
     "id": "com.example.sampletext",
